@@ -1,0 +1,7 @@
+clock:
+  version: 1.x
+  js:
+    js/clock.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

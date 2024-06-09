@@ -1,0 +1,7 @@
+hello_world.content:
+  path: '/clock'
+  defaults:
+    _controller: 'Drupal\hello_world\Controller\HelloWorldController::hello'
+    _title: 'Real Time'
+  requirements:
+    _permission: 'access content'
